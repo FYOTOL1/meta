@@ -37,7 +37,7 @@ export default function Footer() {
             <h1 className="text-4xl">METATICKET</h1>
           </div>
           <div>
-            <ul className="flex lg:flex-col gap-8 text-xl font-bold mt-20 lg:mt-0">
+            <ul className="flex lg:flex-col gap-2 lg:gap-8 text-xl font-bold mt-20 lg:mt-0">
               <li>
                 <a href="#">Home</a>
               </li>
