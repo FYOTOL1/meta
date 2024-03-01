@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.absolute-y-center {
+  transform: translateY(-50%);
+}
+.x-center {
+  transform: translateX(-50%);
+}
+
+button {
+  transition: all 0.2s;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.Auth {
+  position: absolute;
+  top: 100vh;
+  left: 50%;
+  transform: translate(-50%, -80vh);
+}
+
+.Background_Plur {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.585);
+  z-index: 10;
+}
