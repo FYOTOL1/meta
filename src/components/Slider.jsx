@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Slider() {
-  let Slides_Path = ["/slide_1.jpg", "/slide_1.jpg", "/slide_1.jpg"];
+  let Slides_Path = ["/slide_1.jpg", "/event_1.jpg", "/slide_1.jpg"];
   return (
     <>
       <div
@@ -47,7 +47,7 @@ export default function Slider() {
           <h2 className="mt-2 sm:mt-0">
             Get Your Music Fix <br /> With Festival
           </h2>
-          <button className="rounded-full w-fit lg:px-10 md:px-8 sm:px-4 md:py-2 py-1 mt-10 md:mt-20 bg-white text-[#333] md:text-lg sm:text-base">
+          <button className="rounded-full w-fit lg:px-10 px-3 md:px-8 sm:px-4 md:py-2 py-1 mt-10 md:mt-20 bg-white text-[#333] md:text-lg text-[13px] sm:text-base">
             Book Now
           </button>
         </div>
