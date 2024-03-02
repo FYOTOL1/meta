@@ -19,17 +19,17 @@ export default function Auth() {
         <h1 className="text-5xl">Sign in</h1>
         <div className="flex items-center flex-col lg:flex-row gap-5 mt-8">
           <button className="Google flex justify-center lg:justify-between  md:justify-evenly px-28 md:px-4 items-baseline bg-gray-200 w-full md:max-w-[400px] text-3xl py-4 rounded-lg">
-            <i class="fa-brands fa-google"></i>
+            <i className="fa-brands fa-google"></i>
             <p className="text-2xl hidden md:inline">Sign in With Google</p>
           </button>
           <button className="Facebook flex justify-center lg:justify-between  md:justify-evenly px-28 md:px-4 items-baseline bg-gray-200 w-full md:max-w-[400px] lg:w-fit text-3xl py-4 rounded-lg">
-            <i class="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-facebook"></i>
             <p className="text-2xl hidden md:inline lg:hidden">
               Sign in With Facebook
             </p>
           </button>
           <button className="Apple flex justify-center lg:justify-between  md:justify-evenly px-28 md:px-4 items-baseline bg-gray-200 w-full md:max-w-[400px] lg:w-fit text-3xl py-4 rounded-lg">
-            <i class="fa-brands fa-apple"></i>
+            <i className="fa-brands fa-apple"></i>
             <p className="text-2xl hidden md:block lg:hidden">
               Sign in With Apple
             </p>
